@@ -86,7 +86,7 @@ export const Section = styled.div`
   > a {
     margin-top: 20px;
     font-size: 14px;
-    font-weight: 630;
+    font-weight: 600;
     color: var(--color-blue);
     text-decoration: none;
   }
