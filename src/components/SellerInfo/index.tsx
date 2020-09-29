@@ -39,7 +39,7 @@ const SellerInfo: React.FC = () => {
         <ReputationRow>
           <div>
             <strong>561</strong>
-            <span>vendas nos últimos 4 meses</span>
+            <span>Vendas nos últimos 4 meses</span>
           </div>
 
           <div>
@@ -53,7 +53,7 @@ const SellerInfo: React.FC = () => {
             <strong>
               <ClockIcon />
             </strong>
-            <span>vendas nos últimos 4 meses</span>
+            <span>Entrega os produtos dentro do prazo</span>
           </div>
         </ReputationRow>
       </ReputationCard>
