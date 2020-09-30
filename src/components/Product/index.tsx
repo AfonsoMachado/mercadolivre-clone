@@ -61,13 +61,9 @@ const Product: React.FC = () => {
                 <p className="title">Cartões de crédito</p>
                 <p className="description">Pague em até 12x!</p>
               </span>
-            </div>
-            <div>
               <span>
                 <p className="title">Cartões de débito</p>
               </span>
-            </div>
-            <div>
               <span>
                 <p className="title">Boleto bancário</p>
               </span>
