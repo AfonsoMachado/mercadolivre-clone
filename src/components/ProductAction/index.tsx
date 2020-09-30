@@ -12,7 +12,7 @@ import {
   InstallmentsInfo,
   StockStatus,
   MethodCard,
-  CheckIcon,
+  ShippingIcon,
   Actions,
   Button,
   Benefits,
@@ -46,7 +46,7 @@ const ProductAction: React.FC = () => {
       <StockStatus>Estoque disponível</StockStatus>
 
       <MethodCard>
-        <CheckIcon />
+        <ShippingIcon />
 
         <div>
           <span className="title">Frete grátis</span>

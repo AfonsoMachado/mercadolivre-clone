@@ -1,12 +1,9 @@
 import styled from "styled-components";
-import {
-  HiOutlineHeart,
-  HiOutlineCheck,
-  HiOutlineShieldCheck,
-} from "react-icons/hi";
+import { HiOutlineHeart, HiOutlineShieldCheck } from "react-icons/hi";
 
 import { BiTrophy } from "react-icons/bi";
 import { RiArrowGoBackLine } from "react-icons/ri";
+import { FiTruck } from "react-icons/fi";
 
 export const Container = styled.div`
   padding: 32px;
@@ -112,9 +109,9 @@ export const MethodCard = styled.div`
   }
 `;
 
-export const CheckIcon = styled(HiOutlineCheck)`
-  width: 24px;
-  height: 24px;
+export const ShippingIcon = styled(FiTruck)`
+  width: 20px;
+  height: 20px;
   color: var(--color-green);
 `;
 
