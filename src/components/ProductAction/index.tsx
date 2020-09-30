@@ -15,7 +15,9 @@ import {
   Actions,
   Button,
   Benefits,
+  TrophyIcon,
   ShieldIcon,
+  BackIcon,
 } from "./styles";
 
 const ProductAction: React.FC = () => {
@@ -61,10 +63,26 @@ const ProductAction: React.FC = () => {
 
       <Benefits>
         <li>
+          <BackIcon />
+          <p>
+            <span>Devolução grátis</span>. Você tem 30 dias a partir da data de
+            recebimento.
+          </p>
+        </li>
+
+        <li>
           <ShieldIcon />
           <p>
-            Compra Garantida, receba o produto que está esperando ou devolvemos
-            o dinheiro.
+            <span>Compra Garantida</span>, receba o produto que está esperando
+            ou devolvemos o dinheiro.
+          </p>
+        </li>
+
+        <li>
+          <TrophyIcon />
+
+          <p>
+            <span>Mercado Pontos</span>. Você acumula 1799 pontos.
           </p>
         </li>
       </Benefits>

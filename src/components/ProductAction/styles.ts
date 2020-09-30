@@ -5,6 +5,9 @@ import {
   HiOutlineShieldCheck,
 } from "react-icons/hi";
 
+import { BiTrophy } from "react-icons/bi";
+import { RiArrowGoBackLine } from "react-icons/ri";
+
 export const Container = styled.div`
   padding: 32px;
   display: flex;
@@ -137,14 +140,14 @@ export const Button = styled.button<ButtonProps>`
   /* se for um botão solid, a cor é branca */
   color: ${(props) =>
     props.solid ? "var(--color-white)" : "var(--color-blue)"};
-  background: ${(props) => (props.solid ? "var(--color-blue)" : "transparent")};
-  border: ${(props) => (props.solid ? "none" : "1px solid var(--color-blue)")};
+  background: ${(props) => (props.solid ? "var(--color-blue)" : "#4189E626")};
+  border: none;
 
   cursor: pointer;
 `;
 
 export const Benefits = styled.ul`
-  margin-top: 16px;
+  margin-top: 20px;
   list-style: none;
   display: flex;
   flex-direction: column;
@@ -156,11 +159,33 @@ export const Benefits = styled.ul`
       margin-left: 10px;
       color: var(--color-gray);
       font-size: 14px;
+
+      > span {
+        color: var(--color-blue);
+      }
     }
+  }
+
+  li + li {
+    margin-top: 20px;
   }
 `;
 
 export const ShieldIcon = styled(HiOutlineShieldCheck)`
+  width: 20px;
+  height: 20px;
+  color: var(--color-gray);
+  flex-shrink: 0;
+`;
+
+export const TrophyIcon = styled(BiTrophy)`
+  width: 20px;
+  height: 20px;
+  color: var(--color-gray);
+  flex-shrink: 0;
+`;
+
+export const BackIcon = styled(RiArrowGoBackLine)`
   width: 20px;
   height: 20px;
   color: var(--color-gray);

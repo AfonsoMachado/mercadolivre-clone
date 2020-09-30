@@ -59,7 +59,7 @@ export const Section = styled.div`
 
   > h4 {
     font-size: 18px;
-    margin-bottom: 40px;
+    margin-bottom: 28px;
   }
 
   > div {
@@ -84,7 +84,7 @@ export const Section = styled.div`
   }
 
   > a {
-    margin-top: 20px;
+    margin-top: 28px;
     font-size: 14px;
     font-weight: 600;
     color: var(--color-blue);

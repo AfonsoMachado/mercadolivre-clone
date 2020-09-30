@@ -35,9 +35,45 @@ const Product: React.FC = () => {
           <ProductAction />
           <SellerInfo />
 
+          <Section>
+            <h4>Devolução grátis</h4>
+
+            <div>
+              <span>
+                <p className="description">
+                  Você tem 30 dias a partir do recebimento do produto para
+                  devolvê-lo, não importa o motivo!
+                </p>
+              </span>
+            </div>
+
+            <a href="#">Ver mais sobre devoluções</a>
+          </Section>
+
           <WarrantySection />
-          <WarrantySection />
-          <WarrantySection />
+
+          <Section>
+            <h4>Meios de pagamento</h4>
+
+            <div>
+              <span>
+                <p className="title">Cartões de crédito</p>
+                <p className="description">Pague em até 12x!</p>
+              </span>
+            </div>
+            <div>
+              <span>
+                <p className="title">Cartões de débito</p>
+              </span>
+            </div>
+            <div>
+              <span>
+                <p className="title">Boleto bancário</p>
+              </span>
+            </div>
+
+            <a href="#">Conheça outros meios de pagamento</a>
+          </Section>
         </Column>
       </Panel>
     </Container>
